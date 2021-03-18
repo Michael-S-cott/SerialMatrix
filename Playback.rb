@@ -12,7 +12,7 @@ data = Array.new
 voice = Array.new
 linea = ''
 use_synth :tri
-File.open('//Users/michaelscott/desktop/serial_matrix/SonicPiInput.txt','r') do |f1|
+File.open('/Users/michaelscott/desktop/SerialMatrix/SonicPiInput.txt','r') do |f1|
   while linea = f1.gets
     
     while i <linea.length-1

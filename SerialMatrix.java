@@ -627,7 +627,7 @@ public class SerialMatrix {
 	}
 public static int convert(String a) {
 		
-		if ((a.equals("C")||a.equals("B#"))) 
+		if ((a.equals("C")||a.equals("B#")||a.equals("c")||a.equals("b#"))) 
 			return 0;
 			
 		else if ((a.equals("C#")||a.equals("Db")||a.equals("c#")||a.equals("db")))
